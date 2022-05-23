@@ -58,4 +58,4 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Bottle"
+mainClass = "Main"
