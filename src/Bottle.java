@@ -40,6 +40,15 @@ public Bottle(){
 }
 
 /*
+  Ein weiterer Konstruktor
+ */
+public Bottle(double[] values) {
+  this(values[0], values[1]);   //mit this() kann ein anderer Konstruktor aufgerufen werden, um doppelten Code zu vermeiden.
+
+}
+
+
+/*
 Die toString() Methode wird in Java immer automatisch aufgerufen, wenn das Objekt in einen String umgewandelt werden soll.
 
 Die Methode muss dafür exakt toString() heißen und einen String zurückliefern.
