@@ -30,8 +30,8 @@ public class Bottle {
 
 /*
   Ein Konstruktor ohne Parameter, ist der Default Konstruktor. 
-  Wenn man gar keinen eigenen Konstruktor schreibt, exisitert dieser automatisch.
-  Sobald man selbst einen Konstruktor schreibt, existiert dieser nicht mehr automatisch.
+  Wenn man gar keinen eigenen Konstruktor schreibt, existiert dieser automatisch.
+  Sobald man selbst einen Konstruktor schreibt, existiert der Default Konstruktor nicht mehr automatisch.
   Will man ihn dennoch haben, muss man ihn wieder händisch schreiben.
 */
 public Bottle(){
@@ -40,9 +40,9 @@ public Bottle(){
 }
 
 /*
-Die toString() Methode wird in Java immer automatisch aufgerufen wenn das Objekt in einen String umgewandelt werden soll.
+Die toString() Methode wird in Java immer automatisch aufgerufen, wenn das Objekt in einen String umgewandelt werden soll.
 
-Die Methode muss dafür genau so heißen und einen String zurück liefern.
+Die Methode muss dafür exakt toString() heißen und einen String zurückliefern.
 */
 public String toString() {
   return "Die Flasche ist mit "+currentLevel+" ml von "+volume+" ml gefüllt.";
